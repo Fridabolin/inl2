@@ -1,0 +1,182 @@
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.container{
+    display:grid;
+    grid-template-columns:30rem auto; 
+}
+
+.left {
+    background-color:#F5E8DC;
+    height:100vh;
+}
+
+.left p {
+    color:gray;
+}
+
+aside{
+   width:20rem; 
+   margin:2rem;
+}
+
+.robot {
+    width:30rem;
+    margin-left:10rem;
+}
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+/*lang*/
+
+.select {
+    display:flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.lang {
+    color: lightgray;
+    border: none;
+}
+
+
+/*form*/
+
+.form-wrapper {
+    display:flex;
+    justify-content:center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap:wrap;
+    width:20rem;
+    height: fit-content;
+    margin-top:6rem;
+   
+}
+
+.second{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+.google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+    height: 1rem;
+    border-radius: 5%;
+    padding:4px;
+    width: 100%;
+}
+
+.gimg {
+    
+    width: 1rem;
+    height: 1rem;
+    padding-right:1em;
+    
+}
+.fimg , .aimg {
+    width: 1rem;
+}
+
+
+.facebook , .apple {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    background-color:#E5E5E5;
+    margin: 0.5rem;
+    width: 2rem;
+    height: 1.5rem;  
+}
+
+.or {
+    display:flex;
+    justify-content: center;
+    color:lightgray;
+    font-size: small;
+}
+
+/*sign up*/
+.first , .second , .third  {
+    margin: 1rem;
+}
+
+label {
+    font-size:x-small;
+    color: grey;
+}
+
+#password , #email , #fname {
+    border:none;
+    border-bottom:1px solid lightgray;
+    font-size: medium;
+    width: 95%;
+    outline: none;   
+    padding:5px;
+    margin:1px;
+}
+
+
+/*checkbox and submit*/
+.fourth{
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+    
+}
+
+.strong-password {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.green {
+    background-color: green;
+    width: 4rem;
+    height:4px;
+    margin:5px;
+    margin-top:20px;
+    border-radius:10%;
+}
+
+.gray {
+    background-color: #E5E5E5;
+    width: 4rem;
+    height:4px;
+    margin:5px;
+    margin-top:20px;
+    border-radius:10%;
+}
+
+input {
+    margin:2px;
+}
+
+ a {
+  color:#0080FF;
+}
+
+.button{
+    margin-top:1rem;
+    padding:10px;
+    width: 100%;
+    background-color:#FF6A33;
+    border: none;
+    color:#F1F1F1;
+}
