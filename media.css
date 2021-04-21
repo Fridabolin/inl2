@@ -1,31 +1,17 @@
 
-
-
-@media (width:1024px){
+    @media (min-width:997px){
     
-    .container {
-    grid-template-columns:20rem auto; 
-    }
-    
-    .robot {
-        width:30rem;
-        margin:0;
-    } 
-}
-
-@media (min-width:1000px){
-    
-    .container {
-    grid-template-columns:20rem auto; 
-    }
-    }
-    .robot {
-        width:25rem;
-        margin:2rem;
-    }
+        .container {
+        grid-template-columns:30rem auto; 
+        }
+        }
+        .robot {
+            width:35rem;
+            margin:2rem;
+        }
 
 
-@media (max-width:700px){
+@media (max-width:822px){
 
     .container{
         grid-template-columns:none;
@@ -34,8 +20,16 @@
     .left { 
         height:20rem; }
 
+    aside p {
+    display:none;
+    }
+
+    .lang {
+        display:none;
+    }
+
     .robot {
-        width:15rem;
+        width:20rem;
         margin:0;
     }
 
