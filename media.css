@@ -35,29 +35,14 @@
 
     aside {
         margin:0.5rem;
-
     }
-    .form-wrapper {
-         margin-top:3rem; }
-    }
-
-    .third {
-        margin:0;
-    }
-
-    #password , #email , #fname{
-    width: 90%;
-    }
-
+ 
     .strong-password{
-       width:90%;
+       margin-top:0.5rem;
     }
 
     .button {
-        width:90%;
         margin-bottom:1rem;
     }
-
-
     
-    
+    }

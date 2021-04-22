@@ -63,8 +63,6 @@ aside{
     width:20rem;
     height: fit-content;
     margin-top:6rem;
-    
-   
 }
 
 .second{
@@ -113,7 +111,7 @@ aside{
     font-size: small;
 }
 
-/*sign up*/
+/*third*/
 .first , .second , .third  {
     margin: 1rem;
 }
@@ -121,6 +119,15 @@ aside{
 label {
     font-size:x-small;
     color: grey;
+}
+
+input {
+    font-weight: bold;
+    color: black;
+}
+
+::placeholder {
+    color:black;
 }
 
 #password , #email , #fname {
@@ -134,7 +141,7 @@ label {
 }
 
 
-/*checkbox and submit*/
+/*fourth*/
 .fourth{
     display: flex;
     flex-direction: row;
@@ -167,9 +174,6 @@ label {
     border-radius:10%;
 }
 
-input {
-    margin:2px;
-}
 
  a {
   color:#0080FF;
@@ -177,7 +181,8 @@ input {
 
 .button{
     margin-top:1rem;
-    padding:10px;
+    padding-top:10px;
+    padding-bottom:10px;
     width: 100%;
     background-color:#FF6A33;
     border: none;
