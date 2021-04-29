@@ -6,11 +6,19 @@
     font-family: 'Roboto', sans-serif;
     
 }
+
+
+strong.seo {
+    font-weight:normal;
+    font-style:normal;
+    }
+
 .container{
     display:grid;
     grid-template-columns:30rem auto; 
 }
 
+/*left*/
 .left {
     background-color:#F5E8DC;
     height:100vh;
@@ -18,6 +26,15 @@
 
 .left p {
     color:gray;
+}
+
+@keyframes changecolor {
+    from {color:black}
+    to {color:#FF6A33}
+  } 
+
+.left h2 {
+    animation:changecolor 2s infinite;
 }
 
 aside{
@@ -30,15 +47,13 @@ aside{
     margin-left:10rem;
 }
 
-
+/*right*/
 .right{
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
 }
-
-/*lang*/
 
 .select {
     display:flex;
@@ -79,6 +94,11 @@ aside{
     border-radius: 5%;
     padding:4px;
     width: 100%;
+}
+
+.google:hover{
+    background-color:#FF6A33;
+    transition: 2s;
 }
 
 .gimg {
@@ -124,6 +144,11 @@ label {
 input {
     font-weight: bold;
     color: black;
+}
+
+input:hover{
+    background-color:#FF6A33;
+    transition: 2s;
 }
 
 ::placeholder {
@@ -179,6 +204,9 @@ input {
   color:#0080FF;
 }
 
+.box {
+    margin:5px;
+}
 .button{
     margin-top:1rem;
     padding-top:10px;
@@ -187,4 +215,10 @@ input {
     background-color:#FF6A33;
     border: none;
     color:#F1F1F1;
+}
+
+.button:hover{
+    border:2px solid black;
+    transition: none;
+    cursor:pointer;
 }

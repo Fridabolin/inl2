@@ -1,15 +1,16 @@
 
-    @media (min-width:997px){
+@media (min-width:822px){
     
         .container {
-        grid-template-columns:30rem auto; 
+        grid-template-columns:23rem auto; 
         }
         }
         .robot {
-            width:35rem;
-            margin:2rem;
+            width:28rem;
+            margin-left:5rem;
         }
 
+    
 
 @media (max-width:822px){
 
@@ -28,6 +29,11 @@
         display:none;
     }
 
+.robot-wrapper{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
     .robot {
         width:20rem;
         margin:0;
